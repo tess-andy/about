@@ -1,0 +1,61 @@
+/* border:5px; */
+* {
+  /* border: solid 10px black; */
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #a3d8eb;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+}
+.Container {
+  height: max-content;
+  /* border: solid 2px black; */
+  background-color: #d6f2fc;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 20px black;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+img {
+  height: 150px;
+  width: 150px;
+  border: solid 8px white;
+  border-radius: 50%;
+}
+.ImageDesc {
+  display: flex;
+  align-items: center;
+  /* border: solid 1px black; */
+  padding: 20px;
+  justify-content: space-between;
+}
+.Desc {
+  width: 300px;
+  margin-left: 20px;
+}
+.stats {
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+}
+.Actions {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  justify-self: center;
+}
+
+/* https://g14p2bvp-5500.uks1.devtunnels.ms/ */
